@@ -1,7 +1,9 @@
 import React from 'react';
 import uiux from '../../Assets/uiux.jpg';
 import JobCard from '../Jobcard';
-
+import Image1 from '../../Assets/1 (3).jpg'
+import Image4 from '../../Assets/4.png'
+import Image6 from '../../Assets/6 (3).jpg'
 function Home() {
   const steps = [
     { id: 1, title: "Step 1", description: "Clearly understand your desired job role, industry, and location." },
@@ -48,7 +50,11 @@ function Home() {
           </button>
         </div>
       </div>
-
+      <div className='flex justify-center'>
+        <a href='https://392.play.pokiigame.com/' target='_blank'>
+          <img src={Image6} alt="" className='w-[800px]'/>
+        </a>
+      </div>
       {/* Part Three */}
       <div className="max-w-4xl mx-auto p-6 space-y-8">
         {steps.map((step) => (
@@ -68,7 +74,11 @@ function Home() {
           </button>
         </div>
       </div>
-
+      <div className='flex justify-center'>
+        <a href='https://392.play.pokiigame.com/' target='_blank'>
+          <img src={Image1} alt="" className='w-[800px]'/>
+        </a>
+      </div>
       {/* Part Four */}
       <div className="max-w-6xl mx-auto px-4 my-10">
         <h1 className='my-12 text-center text-3xl font-bold'>Apply Related Jobs</h1>
@@ -137,6 +147,11 @@ function Home() {
             logoUrl="https://media.licdn.com/dms/image/D4D12AQHwi4jdRd3fQQ/article-cover_image-shrink_600_2000/0/1685279753620?e=2147483647&v=beta&t=7I-pJ0kDQfNl4w-0Ue8aPyol_X-aWOQlzp18NhTldys"
           />
         </div>
+      </div>
+      <div className='flex justify-center mb-5'>
+        <a href='https://392.play.pokiigame.com/' target='_blank'>
+          <img src={Image4} alt="" />
+        </a>
       </div>
     </>
   );
